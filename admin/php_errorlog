@@ -1,0 +1,69 @@
+[26-Apr-2024 07:55:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/customer/www/joshuaco.org/public_html/admin/home.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/admin/home.php on line 5
+[30-Apr-2024 12:28:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/customer/www/joshuaco.org/public_html/admin/center.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/admin/home.php(3): include()
+#1 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/admin/center.php on line 3
+[30-Apr-2024 12:37:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/customer/www/joshuaco.org/public_html/admin/center.php:6
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/admin/home.php(3): include()
+#1 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/admin/center.php on line 6
+[30-Apr-2024 12:37:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/customer/www/joshuaco.org/public_html/admin/center.php:6
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/admin/home.php(3): include()
+#1 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/admin/center.php on line 6
+[30-Apr-2024 12:37:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/customer/www/joshuaco.org/public_html/admin/center.php:6
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/admin/home.php(3): include()
+#1 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/admin/center.php on line 6
+[30-Apr-2024 12:37:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/customer/www/joshuaco.org/public_html/admin/center.php:6
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/admin/home.php(3): include()
+#1 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/admin/center.php on line 6
+[30-Apr-2024 12:37:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/customer/www/joshuaco.org/public_html/admin/center.php:6
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/admin/home.php(3): include()
+#1 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/admin/center.php on line 6
+[30-Apr-2024 12:37:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/customer/www/joshuaco.org/public_html/admin/center.php:6
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/admin/home.php(3): include()
+#1 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/admin/center.php on line 6
+[30-Apr-2024 12:40:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/customer/www/joshuaco.org/public_html/admin/center.php:6
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/admin/home.php(3): include()
+#1 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/admin/center.php on line 6
+[30-Apr-2024 12:40:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/customer/www/joshuaco.org/public_html/admin/center.php:6
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/admin/home.php(3): include()
+#1 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/admin/center.php on line 6
+[30-Apr-2024 12:40:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/customer/www/joshuaco.org/public_html/admin/center.php:6
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/admin/home.php(3): include()
+#1 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/admin/center.php on line 6
+[30-Apr-2024 12:43:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/customer/www/joshuaco.org/public_html/admin/weekly.php:4
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/admin/home.php(100): include()
+#1 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/admin/weekly.php on line 4
+[30-Apr-2024 12:44:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/customer/www/joshuaco.org/public_html/admin/center.php:2
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/admin/home.php(6): include()
+#1 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/admin/center.php on line 2
+[30-Apr-2024 12:45:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_result() on bool in /home/customer/www/joshuaco.org/public_html/admin/center.php:2
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/admin/home.php(6): include()
+#1 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/admin/center.php on line 2

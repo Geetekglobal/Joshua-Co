@@ -1,0 +1,169 @@
+To create a page where users can pay for recorded classes, similar to Udemy, and have the videos hosted on AWS S3 buckets, you need to set up a page with the following components:
+
+1. **List of Recorded Classes**: Display the classes available for purchase.
+2. **Payment Integration**: Implement a payment gateway for transactions.
+3. **Video Streaming**: Use AWS S3 to host and stream the videos.
+4. **Order Handling**: Manage purchases and provide access to the videos.
+
+Here's a basic implementation outline for the payment page:
+
+### 1. Create the Page for Recorded Classes
+
+Create a new PHP file, for example `recorded_classes.php`, and add the following code:
+
+```php
+<?php
+include('header.php'); 
+
+// Check if the user is logged in
+if(!isset($_SESSION['user_id'])) {
+    echo "User not logged in";
+    exit();
+}
+
+// Fetch recorded classes from the database
+$sql = "SELECT id, class_title, class_description, class_price, s3_url FROM recorded_classes";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+    $classes = $result->fetch_all(MYSQLI_ASSOC);
+} else {
+    echo "No classes found";
+    exit();
+}
+
+?>
+
+</head>
+<body>
+  <h4 class="container p-2 name" style="text-align:right;">Welcome Back <span><?php echo htmlspecialchars($fullName); ?></span> </h4>
+  <div class="mx-5 dashboard">
+    <div class="left_side">
+      <h2>Available Recorded Classes</h2>
+      <div class="classes-container">
+        <?php foreach ($classes as $class) { ?>
+          <div class="class-card">
+            <h3><?php echo htmlspecialchars($class['class_title']); ?></h3>
+            <p><?php echo htmlspecialchars($class['class_description']); ?></p>
+            <p>Price: $<?php echo htmlspecialchars($class['class_price']); ?></p>
+            <form action="purchase.php" method="post">
+              <input type="hidden" name="class_id" value="<?php echo htmlspecialchars($class['id']); ?>">
+              <button type="submit" class="btn-submit">Purchase</button>
+            </form>
+          </div>
+        <?php } ?>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
+```
+
+### 2. Create a Purchase Handling Script
+
+Create `purchase.php` to handle the payment process and update the database. You'll need to integrate a payment gateway like Stripe or PayPal.
+
+Here’s a basic example using PayPal (assume you have PayPal integration already set up):
+
+```php
+<?php
+include('header.php'); 
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $class_id = $_POST['class_id'];
+
+    // Fetch class details
+    $sql = "SELECT class_title, class_price FROM recorded_classes WHERE id = '$class_id'";
+    $result = $conn->query($sql);
+
+    if ($result->num_rows > 0) {
+        $class = $result->fetch_assoc();
+        $class_title = $class['class_title'];
+        $class_price = $class['class_price'];
+
+        // Initiate PayPal payment here
+        // Redirect user to PayPal for payment
+        // This part requires PayPal API integration
+
+        // For simplicity, assuming payment is successful:
+        $user_id = $_SESSION['user_id'];
+        $sql = "INSERT INTO purchases (user_id, class_id, purchase_date) VALUES ('$user_id', '$class_id', NOW())";
+        if ($conn->query($sql) === TRUE) {
+            echo "<script>
+                    alert('Payment successful! Access to the class has been granted.');
+                    window.location.href = 'access_class.php?class_id=$class_id';
+                  </script>";
+        } else {
+            echo "Error: " . $conn->error;
+        }
+    } else {
+        echo "Class not found";
+    }
+
+    $conn->close();
+}
+?>
+```
+
+### 3. Create a Page to Access Purchased Classes
+
+Create `access_class.php` to provide the link to the video hosted on AWS S3:
+
+```php
+<?php
+include('header.php'); 
+
+if (!isset($_SESSION['user_id']) || !isset($_GET['class_id'])) {
+    echo "Unauthorized access";
+    exit();
+}
+
+$user_id = $_SESSION['user_id'];
+$class_id = $_GET['class_id'];
+
+// Verify if the user has purchased this class
+$sql = "SELECT * FROM purchases WHERE user_id = '$user_id' AND class_id = '$class_id'";
+$result = $conn->query($sql);
+
+if ($result->num_rows === 0) {
+    echo "Access denied. You haven't purchased this class.";
+    exit();
+}
+
+// Fetch class details
+$sql = "SELECT class_title, s3_url FROM recorded_classes WHERE id = '$class_id'";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+    $class = $result->fetch_assoc();
+    $class_title = $class['class_title'];
+    $s3_url = $class['s3_url'];
+} else {
+    echo "Class not found";
+    exit();
+}
+?>
+
+</head>
+<body>
+  <h4 class="container p-2 name" style="text-align:right;">Welcome Back <span><?php echo htmlspecialchars($fullName); ?></span> </h4>
+  <div class="mx-5 dashboard">
+    <div class="left_side">
+      <h2><?php echo htmlspecialchars($class_title); ?></h2>
+      <video controls>
+        <source src="<?php echo htmlspecialchars($s3_url); ?>" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</body>
+</html>
+```
+
+### Notes:
+- **Security**: Ensure that you validate and sanitize all user inputs to prevent SQL injection and other security issues.
+- **Payment Integration**: The example assumes you handle payment through PayPal or another service. You must integrate their API and handle callbacks for payment verification.
+- **Video Hosting**: Ensure the AWS S3 bucket is set up correctly and that the video URLs are accessible as per your S3 bucket's permissions.
+
+This basic example should give you a foundation to build a more comprehensive solution tailored to your needs.

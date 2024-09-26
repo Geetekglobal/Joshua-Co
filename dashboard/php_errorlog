@@ -1,0 +1,235 @@
+[04-Sep-2024 06:26:57 CST6CDT] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/dashboard/connect.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'joshuaco')
+#1 /home/customer/www/joshuaco.org/public_html/dashboard/login.php(2): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php on line 3
+[04-Sep-2024 06:27:06 CST6CDT] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/dashboard/connect.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'joshuaco')
+#1 /home/customer/www/joshuaco.org/public_html/dashboard/login.php(2): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php on line 3
+[04-Sep-2024 06:27:12 CST6CDT] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/dashboard/connect.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'joshuaco')
+#1 /home/customer/www/joshuaco.org/public_html/dashboard/login.php(2): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php on line 3
+[04-Sep-2024 06:27:40 CST6CDT] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/dashboard/connect.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'joshuaco')
+#1 /home/customer/www/joshuaco.org/public_html/dashboard/login.php(2): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php on line 3
+[04-Sep-2024 06:27:43 CST6CDT] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/dashboard/connect.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'joshuaco')
+#1 /home/customer/www/joshuaco.org/public_html/dashboard/login.php(2): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php on line 3
+[04-Sep-2024 06:27:51 CST6CDT] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/dashboard/connect.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'joshuaco')
+#1 /home/customer/www/joshuaco.org/public_html/dashboard/login.php(2): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php on line 3
+[04-Sep-2024 06:41:53 CST6CDT] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/dashboard/connect.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'joshuaco')
+#1 /home/customer/www/joshuaco.org/public_html/dashboard/login.php(2): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php on line 3
+[05-Sep-2024 04:43:35 CST6CDT] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/dashboard/connect.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'joshuaco')
+#1 /home/customer/www/joshuaco.org/public_html/dashboard/login.php(2): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php on line 3
+[05-Sep-2024 05:18:16 CST6CDT] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/dashboard/connect.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'joshuaco')
+#1 /home/customer/www/joshuaco.org/public_html/dashboard/login.php(2): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php on line 3
+[05-Sep-2024 05:18:59 CST6CDT] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/dashboard/connect.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'joshuaco')
+#1 /home/customer/www/joshuaco.org/public_html/dashboard/login.php(2): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php on line 3
+[05-Sep-2024 08:16:42 CST6CDT] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/dashboard/connect.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'joshuaco')
+#1 /home/customer/www/joshuaco.org/public_html/dashboard/login.php(2): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php on line 3
+[05-Sep-2024 11:05:07 CST6CDT] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/dashboard/connect.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'joshuaco')
+#1 /home/customer/www/joshuaco.org/public_html/dashboard/login.php(2): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php on line 3
+[05-Sep-2024 11:05:47 CST6CDT] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/dashboard/connect.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'joshuaco')
+#1 /home/customer/www/joshuaco.org/public_html/dashboard/login.php(2): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php on line 3
+[05-Sep-2024 14:16:39 CST6CDT] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/dashboard/connect.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'joshuaco')
+#1 /home/customer/www/joshuaco.org/public_html/dashboard/login.php(2): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php on line 3
+[06-Sep-2024 08:39:15 CST6CDT] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/dashboard/connect.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'joshuaco')
+#1 /home/customer/www/joshuaco.org/public_html/dashboard/login.php(2): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php on line 3
+[06-Sep-2024 08:39:17 CST6CDT] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/dashboard/connect.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'joshuaco')
+#1 /home/customer/www/joshuaco.org/public_html/dashboard/login.php(2): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php on line 3
+[06-Sep-2024 08:39:22 CST6CDT] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/dashboard/connect.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'joshuaco')
+#1 /home/customer/www/joshuaco.org/public_html/dashboard/login.php(2): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php on line 3
+[07-Sep-2024 13:52:26 CST6CDT] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/dashboard/connect.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'joshuaco')
+#1 /home/customer/www/joshuaco.org/public_html/dashboard/login.php(2): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php on line 3
+[08-Sep-2024 02:41:36 CST6CDT] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/dashboard/connect.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'joshuaco')
+#1 /home/customer/www/joshuaco.org/public_html/dashboard/login.php(2): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php on line 3
+[09-Sep-2024 03:40:02 CST6CDT] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/dashboard/connect.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'joshuaco')
+#1 /home/customer/www/joshuaco.org/public_html/dashboard/login.php(2): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php on line 3
+[09-Sep-2024 03:40:10 CST6CDT] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/dashboard/connect.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'joshuaco')
+#1 /home/customer/www/joshuaco.org/public_html/dashboard/login.php(2): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php on line 3
+[09-Sep-2024 04:08:58 CST6CDT] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/dashboard/connect.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'joshuaco')
+#1 /home/customer/www/joshuaco.org/public_html/dashboard/login.php(2): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php on line 3
+[09-Sep-2024 04:35:59 CST6CDT] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/dashboard/connect.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'joshuaco')
+#1 /home/customer/www/joshuaco.org/public_html/dashboard/header.php(2): include('/home/customer/...')
+#2 /home/customer/www/joshuaco.org/public_html/dashboard/dashboard.php(2): include('/home/customer/...')
+#3 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php on line 3
+[09-Sep-2024 04:36:55 CST6CDT] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/dashboard/connect.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'joshuaco')
+#1 /home/customer/www/joshuaco.org/public_html/dashboard/header.php(2): include('/home/customer/...')
+#2 /home/customer/www/joshuaco.org/public_html/dashboard/dashboard.php(2): include('/home/customer/...')
+#3 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php on line 3
+[09-Sep-2024 04:37:11 CST6CDT] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/dashboard/connect.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'joshuaco')
+#1 /home/customer/www/joshuaco.org/public_html/dashboard/header.php(2): include('/home/customer/...')
+#2 /home/customer/www/joshuaco.org/public_html/dashboard/dashboard.php(2): include('/home/customer/...')
+#3 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php on line 3
+[09-Sep-2024 04:37:18 CST6CDT] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/dashboard/connect.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'joshuaco')
+#1 /home/customer/www/joshuaco.org/public_html/dashboard/header.php(2): include('/home/customer/...')
+#2 /home/customer/www/joshuaco.org/public_html/dashboard/dashboard.php(2): include('/home/customer/...')
+#3 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php on line 3
+[09-Sep-2024 04:49:32 CST6CDT] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/dashboard/connect.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'joshuaco')
+#1 /home/customer/www/joshuaco.org/public_html/dashboard/header.php(2): include('/home/customer/...')
+#2 /home/customer/www/joshuaco.org/public_html/dashboard/dashboard.php(2): include('/home/customer/...')
+#3 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php on line 3
+[09-Sep-2024 04:49:42 CST6CDT] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/dashboard/connect.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'joshuaco')
+#1 /home/customer/www/joshuaco.org/public_html/dashboard/login.php(2): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php on line 3
+[09-Sep-2024 05:02:59 CST6CDT] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/dashboard/connect.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'joshuaco')
+#1 /home/customer/www/joshuaco.org/public_html/dashboard/login.php(2): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php on line 3
+[09-Sep-2024 05:04:20 CST6CDT] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/dashboard/connect.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'joshuaco')
+#1 /home/customer/www/joshuaco.org/public_html/dashboard/login.php(2): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php on line 3
+[09-Sep-2024 05:06:51 CST6CDT] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/dashboard/connect.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'joshuaco')
+#1 /home/customer/www/joshuaco.org/public_html/dashboard/login.php(2): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php on line 3
+[09-Sep-2024 05:58:15 CST6CDT] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/dashboard/connect.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'joshuaco')
+#1 /home/customer/www/joshuaco.org/public_html/dashboard/login.php(2): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php on line 3
+[09-Sep-2024 05:58:21 CST6CDT] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/dashboard/connect.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'joshuaco')
+#1 /home/customer/www/joshuaco.org/public_html/dashboard/login.php(2): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php on line 3
+[09-Sep-2024 06:15:11 CST6CDT] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/dashboard/connect.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'joshuaco')
+#1 /home/customer/www/joshuaco.org/public_html/dashboard/header.php(2): include('/home/customer/...')
+#2 /home/customer/www/joshuaco.org/public_html/dashboard/dashboard.php(2): include('/home/customer/...')
+#3 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php on line 3
+[09-Sep-2024 07:06:33 CST6CDT] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/dashboard/connect.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'joshuaco')
+#1 /home/customer/www/joshuaco.org/public_html/dashboard/header.php(2): include('/home/customer/...')
+#2 /home/customer/www/joshuaco.org/public_html/dashboard/dashboard.php(2): include('/home/customer/...')
+#3 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php on line 3
+[09-Sep-2024 12:26:57 CST6CDT] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/dashboard/connect.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'joshuaco')
+#1 /home/customer/www/joshuaco.org/public_html/dashboard/login.php(2): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php on line 3
+[09-Sep-2024 13:59:30 CST6CDT] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/dashboard/connect.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'joshuaco')
+#1 /home/customer/www/joshuaco.org/public_html/dashboard/login.php(2): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php on line 3
+[09-Sep-2024 18:16:48 CST6CDT] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php:3
+Stack trace:
+#0 /home/customer/www/joshuaco.org/public_html/dashboard/connect.php(3): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'joshuaco')
+#1 /home/customer/www/joshuaco.org/public_html/dashboard/login.php(2): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/joshuaco.org/public_html/dashboard/connect.php on line 3
